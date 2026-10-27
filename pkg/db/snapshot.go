@@ -9,7 +9,7 @@ import (
 
 	"github.com/nats-io/nats.go/jetstream"
 
-	"github.com/lalternative/packages/go/eda/pkg/ddd"
+	"github.com/lalternativefabrique/eventkit/pkg/ddd"
 )
 
 // Snapshot is the on-disk shape of an aggregate snapshot. State is a

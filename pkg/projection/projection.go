@@ -15,7 +15,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/lalternative/packages/go/eda/pkg/ddd"
+	"github.com/lalternativefabrique/eventkit/pkg/ddd"
 )
 
 // Projector applies envelopes to its read model. Implementations must be

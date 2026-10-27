@@ -17,7 +17,7 @@ import (
 
 	"github.com/nats-io/nats.go"
 
-	"github.com/lalternative/packages/go/eda/pkg/logger"
+	"github.com/lalternativefabrique/eventkit/pkg/logger"
 )
 
 // DefaultURL is used when NATS_URL is unset.

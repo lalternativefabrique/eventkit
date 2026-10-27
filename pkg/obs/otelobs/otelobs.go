@@ -12,7 +12,7 @@ import (
 	"go.opentelemetry.io/otel/codes"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/lalternative/packages/go/eda/pkg/obs"
+	"github.com/lalternativefabrique/eventkit/pkg/obs"
 )
 
 // Tracer adapts an OTEL Tracer to obs.Tracer.

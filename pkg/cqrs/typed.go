@@ -21,7 +21,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/lalternative/packages/go/eda/pkg/ddd"
+	"github.com/lalternativefabrique/eventkit/pkg/ddd"
 )
 
 // Typed domain errors. Wrap them with fmt.Errorf("%w: ...") to add context.

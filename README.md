@@ -1,4 +1,4 @@
-# Go Generic Event-Driven Boilerplate
+# eventkit
 
 Modern Go boilerplate for **event-driven**, **event-sourced**, **CQRS**-based applications. No business logic — only patterns, primitives and infrastructure you can compose.
 
@@ -27,7 +27,7 @@ examples/
 └── orders/             # everything above + outbox + projection + process manager
 ```
 
-Module path: `github.com/lalternative/packages/go/eda`.
+Module path: `github.com/lalternativefabrique/eventkit`.
 
 `pkg/obs/prom` and `pkg/obs/otelobs` are **separate Go modules** so the core stays free of Prometheus / OpenTelemetry dependencies. Generate a `go.work` locally to develop across all three modules at once:
 

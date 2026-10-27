@@ -21,14 +21,14 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/lalternative/packages/go/eda/pkg/cqrs"
-	"github.com/lalternative/packages/go/eda/pkg/db"
-	"github.com/lalternative/packages/go/eda/pkg/ddd"
-	"github.com/lalternative/packages/go/eda/pkg/di"
-	"github.com/lalternative/packages/go/eda/pkg/logger"
-	"github.com/lalternative/packages/go/eda/pkg/outbox"
-	"github.com/lalternative/packages/go/eda/pkg/processmanager"
-	"github.com/lalternative/packages/go/eda/pkg/projection"
+	"github.com/lalternativefabrique/eventkit/pkg/cqrs"
+	"github.com/lalternativefabrique/eventkit/pkg/db"
+	"github.com/lalternativefabrique/eventkit/pkg/ddd"
+	"github.com/lalternativefabrique/eventkit/pkg/di"
+	"github.com/lalternativefabrique/eventkit/pkg/logger"
+	"github.com/lalternativefabrique/eventkit/pkg/outbox"
+	"github.com/lalternativefabrique/eventkit/pkg/processmanager"
+	"github.com/lalternativefabrique/eventkit/pkg/projection"
 )
 
 // ----------------------------------------------------------------------------

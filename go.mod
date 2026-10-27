@@ -1,4 +1,4 @@
-module github.com/lalternative/packages/go/eda
+module github.com/lalternativefabrique/eventkit
 
 go 1.25.0
 

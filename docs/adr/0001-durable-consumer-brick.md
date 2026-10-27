@@ -2,7 +2,7 @@
 
 - Status: Accepted
 - Date: 2026-05-30
-- Scope: `github.com/lalternative/packages/go/eda` (`pkg/consumer`), consumed by the
+- Scope: `github.com/lalternativefabrique/eventkit` (`pkg/consumer`), consumed by the
   `bootstrap` `--mode eda` template and by skalpai-family services.
 
 ## Context
@@ -54,7 +54,7 @@ events as retryable tasks. The two do not overlap; a new package was required.
 ## Decision
 
 1. **Promote the brick into the shared library.** Add `pkg/consumer` to
-   `github.com/lalternative/packages/go/eda`, generalised from synthiz (no synthiz-specific
+   `github.com/lalternativefabrique/eventkit`, generalised from synthiz (no synthiz-specific
    deps). It provides, **by default**, all seven guarantees above. The public
    surface a service implements is a 4-method `EventHandler`
    (`Name/Subject/DurableName/MaxDeliver`) plus `Handle` — business logic only.

@@ -35,7 +35,7 @@ import (
 	"github.com/nats-io/nats.go"
 	"github.com/nats-io/nats.go/jetstream"
 
-	"github.com/lalternative/packages/go/eda/pkg/logger"
+	"github.com/lalternativefabrique/eventkit/pkg/logger"
 )
 
 // ErrPermanent marks an error as non-retryable. A handler returning an error

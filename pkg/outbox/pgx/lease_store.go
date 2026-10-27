@@ -18,7 +18,7 @@ import (
 
 	"github.com/jackc/pgx/v5/pgxpool"
 
-	"github.com/lalternative/packages/go/eda/pkg/outbox"
+	"github.com/lalternativefabrique/eventkit/pkg/outbox"
 )
 
 // Schema is the canonical DDL for the default outbox_events table. Apply it via

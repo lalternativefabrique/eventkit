@@ -22,7 +22,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/lalternative/packages/go/eda/pkg/ddd"
+	"github.com/lalternativefabrique/eventkit/pkg/ddd"
 )
 
 // Effect is something a handler asks the engine to do after a successful

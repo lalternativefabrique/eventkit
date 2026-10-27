@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/lalternative/packages/go/eda/pkg/cqrs"
-	"github.com/lalternative/packages/go/eda/pkg/logger"
+	"github.com/lalternativefabrique/eventkit/pkg/cqrs"
+	"github.com/lalternativefabrique/eventkit/pkg/logger"
 )
 
 // LoggingMiddleware logs every handler call: start, end, latency, error.

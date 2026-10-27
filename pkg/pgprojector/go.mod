@@ -1,10 +1,10 @@
-module github.com/lalternative/packages/go/eda/pkg/pgprojector
+module github.com/lalternativefabrique/eventkit/pkg/pgprojector
 
 go 1.25.0
 
 require (
 	github.com/jackc/pgx/v5 v5.7.6
-	github.com/lalternative/packages/go/eda v0.7.1
+	github.com/lalternativefabrique/eventkit v0.10.0
 	github.com/nats-io/nats.go v1.52.0
 	github.com/stretchr/testify v1.11.1
 )
@@ -27,4 +27,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/lalternative/packages/go/eda => ../..
+replace github.com/lalternativefabrique/eventkit => ../..

@@ -13,7 +13,7 @@ import (
 
 	"github.com/nats-io/nats.go"
 
-	"github.com/lalternative/packages/go/eda/pkg/consumer"
+	"github.com/lalternativefabrique/eventkit/pkg/consumer"
 )
 
 // Mutation is the effect an event has on the KV read model: upsert an entity,

@@ -42,7 +42,7 @@ import (
 
 	"github.com/nats-io/nats.go"
 
-	"github.com/lalternative/packages/go/eda/pkg/consumer"
+	"github.com/lalternativefabrique/eventkit/pkg/consumer"
 )
 
 // maxDeliverCeiling is an upper bound on sane retry budgets. It is not a rule

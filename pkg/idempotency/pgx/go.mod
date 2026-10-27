@@ -1,10 +1,10 @@
-module github.com/lalternative/packages/go/eda/pkg/idempotency/pgx
+module github.com/lalternativefabrique/eventkit/pkg/idempotency/pgx
 
 go 1.25.0
 
 require (
 	github.com/jackc/pgx/v5 v5.7.6
-	github.com/lalternative/packages/go/eda v0.7.1
+	github.com/lalternativefabrique/eventkit v0.10.0
 )
 
 require (
@@ -19,4 +19,4 @@ require (
 	golang.org/x/text v0.35.0 // indirect
 )
 
-replace github.com/lalternative/packages/go/eda => ../../..
+replace github.com/lalternativefabrique/eventkit => ../../..

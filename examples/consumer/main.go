@@ -24,8 +24,8 @@ import (
 
 	"github.com/nats-io/nats.go"
 
-	"github.com/lalternative/packages/go/eda/pkg/consumer"
-	"github.com/lalternative/packages/go/eda/pkg/logger"
+	"github.com/lalternativefabrique/eventkit/pkg/consumer"
+	"github.com/lalternativefabrique/eventkit/pkg/logger"
 )
 
 // contentCreated is the event payload this handler expects.
