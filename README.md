@@ -149,3 +149,7 @@ See `REVIEW_NOTES.md` for the historical audit and what is now resolved.
 ## License
 
 See LICENSE.
+
+## License
+
+[MPL-2.0](LICENSE)
